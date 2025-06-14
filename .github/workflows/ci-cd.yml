@@ -26,7 +26,7 @@ jobs:
         java-version: '24'
         distribution: 'temurin'
 
-    - name: Cache Maven dependencies
+    - name: Cache Maven dependencies 
       uses: actions/cache@v3
       with:
         path: ~/.m2
